@@ -353,3 +353,54 @@ a{
     font-weight: 700;
     color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
+/* SECTION 5 Css */
+.menu-section{
+    color: var(--default-color);
+    background-color: var(--background-color);
+    padding: 60px 0;
+    scroll-margin-top: 92px;
+    overflow: clip;
+}
+.sectioon-title h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: var(--default-font);
+}
+.sectioon-title p{
+    color: var(--heading-color);
+    margin: 10px 0 0 0;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: var(--default-font-family);
+}
+.nav-tabs{
+    border-bottom: 0 !important;
+}
+.nav-link{
+    margin: 0 15px;
+    padding: 10px 5px;
+    transition: 0.3s;
+    border-radius: 0;
+    cursor: pointer;
+    height: 100%;
+    border: 0;
+    border-bottom: 2px solid color-mix(in srgb, var(--default-color), transparent 80%);
+}
+.menu .nav-link.active{
+    background-color: var(--background-color);
+    color: var(--accent-color) !important;
+    border-color: var(--accent-color) !important;
+}
+.nav-link h4{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    font-family: var(--default-font);
+    color: var(--heading-color);
+}
