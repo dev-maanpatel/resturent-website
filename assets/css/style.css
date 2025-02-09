@@ -404,3 +404,31 @@ a{
     font-family: var(--default-font);
     color: var(--heading-color);
 }
+.menu-item{
+    text-align: center;
+}
+.menu-item a{
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+.menu-img{
+    padding: 0 60px;
+    margin-bottom: 15px;
+}
+.menu-item h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: var(--default-font);
+}
+.menu-item p{
+    font-family: var(--default-font);
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    margin-bottom: 5px;
+}
+.price{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--nav-hover-color);
+}
